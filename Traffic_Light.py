@@ -3,11 +3,11 @@ import time
 def Traffic_auto():
     while True:
         print("GREEN")
-        time.sleep(6)
+        time.sleep(60)
         print("YELLOW")
         time.sleep(5)
         print("RED")
-        time.sleep(6)
+        time.sleep(60)
 
 def Traffic_manual():
     direction=input("Enter the Direction of the Traffic Signal(north,south,east,west):").upper()
